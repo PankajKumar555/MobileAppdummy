@@ -1,0 +1,655 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(221, 220, 220);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containor {
+    width: 375px;
+    height: 812px;
+    background-color: rgb(253, 251, 251);
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.ractangle {
+    /* position: relative; */
+    width: 375px;
+    height: 179px;
+    background: #4A43EC;
+    border-radius: 0px 0px 33px 33px;
+}
+
+
+/* Top bar */
+
+.topbar {
+    display: flex;
+    justify-content: left;
+}
+
+.time {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    height: 18px;
+    width: 54px;
+    margin-top: 13px;
+    margin-left: 21px;
+}
+
+.tower {
+    width: 16.95px;
+    height: 10.67px;
+    margin-left: 218.22px;
+    margin-top: 16.67px;
+
+}
+
+.wifi {
+    width: 15.29px;
+    height: 11px;
+    margin-left: 4.99px;
+    margin-top: 16.33px;
+
+}
+
+.battery {
+    width: 24.33px;
+    height: 11.33px;
+    margin-left: 4.88px;
+    margin-top: 16.33px;
+
+}
+
+/* menu */
+
+.menu {
+    display: flex;
+    justify-content: left;
+}
+
+.menubar {
+    width: 24px;
+    height: 19.20px;
+    margin-left: 24px;
+    margin-top: 21px;
+    cursor: pointer;
+}
+
+.menutxt {
+    width: 94px;
+    height: 16px;
+    margin-left: 86px;
+    margin-top: 13px;
+    color: white;
+    opacity: 70%;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.dropdown {
+    width: 10px;
+    height: 5px;
+    margin-left: 3px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+.bell {
+    width: 36px;
+    height: 36px;
+    margin-left: 74px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.city {
+    width: 98px;
+    height: 17px;
+    margin-left: 135px;
+    margin-top: -22px;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+/* filter */
+.search,
+.filter {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.searchglass {
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.line {
+    width: 1px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 26px;
+}
+
+.searchtxt {
+    width: 150px;
+    height: 26px;
+    margin-left: 7px;
+    margin-top: 23px;
+    background-color: #4A43EC;
+    border: none;
+    opacity: 30%;
+    color: white;
+    font-size: 20.33px;
+
+}
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 70%;
+}
+
+.filter {
+    width: 75px;
+    height: 32.14px;
+    margin-left: 61px;
+    margin-top: 20px;
+    background: #5D56F3;
+    border-radius: 50px
+}
+
+.searchfilter {
+    width: 19.30px;
+    height: 19.30px;
+    margin-left: 6.51px;
+    margin-top: 6.29px;
+}
+
+.filtertxt {
+    width: 35.90px;
+    height: 16.57px;
+    margin-left: 5.93px;
+    margin-top: 8.74px;
+    font-size: 12.03px;
+    font-weight: 400;
+    color: white;
+}
+
+/* catagory */
+
+.catagory {
+    display: flex;
+    justify-content: left;
+    margin-top: 31px;
+    cursor: pointer;
+}
+
+.sports {
+    width: 106.77px;
+    height: 39.06px;
+    background: #F0635A;
+    box-shadow: 0px 6px 20px rgba(46, 46, 79, 0.12);
+    border-radius: 20.9626px;
+    display: flex;
+    justify-content: left;
+    margin-left: 24px;
+
+}
+
+.sportsboll {
+    width: 17.73px;
+    height: 17.73px;
+    margin-left: 16.49px;
+    margin-top: 10.42px;
+
+}
+
+.sportstxt {
+    width: 47.74px;
+    height: 19.97px;
+    margin-left: 8.31px;
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.music {
+    width: 100.69px;
+    height: 39.06px;
+    margin-left: 11.28px;
+
+    background: #F59762;
+    ;
+    box-shadow: 0px 6px 20px rgba(46, 46, 79, 0.12);
+    border-radius: 20.9626px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.musicimg {
+    width: 16.49px;
+    height: 17.73px;
+    margin-left: 17.12px;
+    margin-top: 10.38px;
+
+}
+
+.musictxt {
+    width: 41.67px;
+    height: 19.97px;
+    margin-left: 8.93px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.food {
+    width: 95.19px;
+    height: 38.94px;
+    background: #29D697;
+    box-shadow: 0px 6px 20px rgba(46, 46, 79, 0.12);
+    border-radius: 20.9626px;
+    display: flex;
+    justify-content: left;
+    margin-left: 11.06px;
+
+}
+
+.foodimg {
+    width: 16.68px;
+    height: 17.68px;
+    margin-left: 17.43px;
+    margin-top: 10.38px;
+
+}
+
+.foodtxt {
+    width: 37.21px;
+    height: 19.90px;
+    margin-left: 8.29px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-style: normal;
+
+}
+
+/* upcoming event */
+
+.eventheading {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    margin-top: 50px;
+
+}
+
+.eventtxt {
+    width: 149px;
+    height: 34px;
+    margin-left: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #120D26;
+
+}
+
+.eventtxt2 {
+    width: 44px;
+    height: 23px;
+    margin-left: 122px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #747688;
+}
+
+.eventvectorimg {
+    width: 6.43px;
+    height: 9px;
+    margin-left: 5.29px;
+    opacity: 0.5;
+    border-radius: 1px;
+}
+
+
+/* event design  */
+.box {
+    display: inline-flex;
+    
+}
+
+.box1 {
+    width: 237px;
+    height: 255px;
+    /* border: 1px solid black; */
+    text-align: center;
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(80, 85, 136, 0.06);
+    border-radius: 18px;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.box1img {
+    width: 218px;
+    height: 131px;
+    margin-top: 9px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.date {
+    width: 45px;
+    height: 42px;
+    top: 17px;
+    left: 17px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    position: absolute;
+    color: #F0635A;
+    padding-top: 3px;
+
+}
+
+.datetxt1 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.datetxt2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.design {
+    width: 30px;
+    height: 22px;
+    top: 17px;
+    left: 189px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(3px);
+    border-radius: 7px;
+    position: absolute;
+    padding-top: 8px;
+}
+
+.designimg {
+    width: 10.57px;
+    height: 12.25px;
+}
+
+.boxheading {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.review {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.review1 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    z-index: 3;
+
+}
+
+.review2 {
+    width: 24px;
+    height: 24px;
+    margin-left: -8px;
+    position: relative;
+    z-index: 2;
+}
+
+.review3 {
+    width: 24px;
+    height: 24px;
+    margin-left: -8px;
+    position: relative;
+    z-index: 1;
+}
+
+.reviewtxt {
+    font-size: 12px;
+    font-weight: 500;
+    color: #3F38DD;
+    margin-left: 16px;
+}
+
+.address {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.addressimg {
+    width: 12px;
+    height: 14.67px;
+    margin-left: 18px;
+
+}
+
+.addresstxt {
+    font-size: 13px;
+    font-weight: 400;
+    color: #2B2849;
+    margin-left: 7px;
+}
+
+/* invite */
+
+.invite {
+    width: 328px;
+    height: 127px;
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    background: rgba(0, 248, 255, 0.16);
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.invitetxt {
+    font-size: 18px;
+    font-weight: 500;
+    color: #120D26;
+    margin-top: 13px;
+    margin-left: 18px;
+    height: 34px;
+}
+
+.inviteprice {
+    font-weight: 400;
+    font-size: 13px;
+    color: #484D70;
+    margin-left: 18px;
+    height: 17px;
+}
+
+.invitebtn {
+    width: 72px;
+    height: 32px;
+    background: #00F8FF;
+    border-radius: 5px;
+    margin-left: 18px;
+    margin-top: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+.inviteimg {
+    margin-top: -112px;
+    margin-left: 118px;
+}
+
+/* invite friends */
+
+.nearby {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 24px;
+}
+
+.nearbytxt1 {
+    width: 97px;
+    /* height: 34px; */
+    font-size: 18px;
+    font-weight: 500;
+    color: #120D26;
+    /* opacity: 0.84; */
+    margin-left: 24px;
+    
+
+}
+
+.nearbytxt2 {
+    width: 44px;
+    /* height: 34px; */
+    font-size: 14px;
+    font-weight: 400;
+    color: #747688;
+    margin-left: 174px;
+    
+}
+
+.nearbyimg {
+    width: 6.43px;
+    height: 9px;
+    margin-left: 5.29px;
+   cursor: pointer;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 375px;
+    height: 88px;
+    background-color: #FFFFFF;
+
+}
+
+.explore {
+    text-align: center;
+    margin-left: 28px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #5669FF;
+    margin-top: -15px;
+    cursor: pointer;
+}
+.exploreimg{
+    width: 18.69px;
+    height: 18.69px;
+}
+.eventsimg{
+    width: 17.25px;
+    height: 19.17px;
+    margin-left: 5px;
+}
+.mapimg{
+    width: 16.29px;
+    height: 19.16px;
+}
+.profileimg{
+    width: 15.33px;
+    height: 19.17px;
+}
+.events {
+    text-align: center;
+    margin-left: 37px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #2C3550;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.map {
+    text-align: center;
+    margin-left: 98px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #2C3550;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.profile {
+    text-align: center;
+    margin-left: 48px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #2C3550;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.footerline {
+    width: 134px;
+    height: 5px;
+    border: none;
+    background: #2C3550;
+    border-radius: 100px;
+    margin-left: -225px;
+    margin-top: 60px
+}
+
+.addbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    position: absolute;
+    margin-top: -34px;
+    cursor: pointer;
+}
+.addbtn1{
+    position: relative;
+    z-index: 1;
+    margin-left: -40px;
+    margin-top: -8px;
+    width: 100px;
+    height: 100px;
+}
+.addbtn2{
+    position: relative;
+    z-index: 2;
+    margin-left: -60px;
+    margin-top: -27px;
+    width: 20px;
+    height: 20px;
+}
